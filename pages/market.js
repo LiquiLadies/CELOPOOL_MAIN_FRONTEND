@@ -262,8 +262,8 @@ export default function Home() {
                         <h3 className="text-base bg-grey_dark px-2 py-1 rounded-md">
                           {bond._principalToken.name}
                         </h3>
-                        <Link href="https://celopool-dex-frontend-ajbwvr6ni-celopool.vercel.app/"></Link>
-                        <p className="font-thin text-xs flex items-center mt-1 text-white">
+                        <Link className="cursor-pointer" href="https://celopool-dex-frontend-ajbwvr6ni-celopool.vercel.app/"></Link>
+                        <p className="font-thin text-xs flex items-center mt-1 ml-1 text-white">
                           Get LP <i className="ri-share-box-fill ml-1 text-white"></i>
                         </p>
                       </div>
