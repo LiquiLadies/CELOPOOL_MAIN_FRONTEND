@@ -16,6 +16,7 @@ import {
 import { resultArray } from "../utils/result";
 import { ethers } from "ethers";
 import { toast } from "react-toastify";
+import Link from "next/link";
 
 export default function Home() {
   const { address, isConnected } = useAccount();
@@ -261,8 +262,9 @@ export default function Home() {
                         <h3 className="text-base bg-grey_dark px-2 py-1 rounded-md">
                           {bond._principalToken.name}
                         </h3>
+                        <Link href="https://celopool-dex-frontend-ajbwvr6ni-celopool.vercel.app/"></Link>
                         <p className="font-thin text-xs flex items-center mt-1 text-white">
-                          Get LP <i className="ri-share-box-fill ml-1"></i>
+                          Get LP <i className="ri-share-box-fill ml-1 text-white"></i>
                         </p>
                       </div>
                     </div>
