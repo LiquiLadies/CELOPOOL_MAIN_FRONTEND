@@ -219,7 +219,7 @@ export default function Home() {
                 placeholder="Search"
               />
 
-              <div className="px-2 py-1 rounded-xl text-grey_light font-medium absolute right-2 top-2 border border-grey inline-block">
+              <div className="px-2 py-1 rounded-xl text-grey_light font-medium absolute right-2 top-2 border border-grey inline-block text-black">
                 Showing All ({resultArray.length})
               </div>
             </div>
