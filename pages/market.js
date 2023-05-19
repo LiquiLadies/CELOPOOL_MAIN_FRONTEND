@@ -259,7 +259,7 @@ export default function Home() {
                   >
                     <div className="col-span-3 flex items-center">
                       <div className="">
-                        <h3 className="text-base bg-grey_dark px-2 py-1 rounded-md">
+                        <h3 className="text-base bg-grey_dark px-2 py-1 ml-1 rounded-md">
                           {bond._principalToken.name}
                         </h3>
                         <Link className="cursor-pointer" href="https://celopool-dex-frontend-ajbwvr6ni-celopool.vercel.app/"></Link>

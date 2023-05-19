@@ -36,6 +36,9 @@ const Navbar = () => {
           <Link href="/partners">
             <a className="ml-4 navbar___partner">Partners</a>
           </Link>
+          <Link target="_blank" href="https://celopool-dex-frontend-ajbwvr6ni-celopool.vercel.app/">
+            <a className="ml-4 navbar___partner">DEX</a>
+          </Link>
         </div>
 
         <div className="flex items-center">
