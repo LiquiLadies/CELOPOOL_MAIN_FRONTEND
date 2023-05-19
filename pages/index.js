@@ -50,6 +50,13 @@ export default function Home() {
                 <div className="nav__links-wrp">
                   <nav role="navigation" className="nav__menu w-nav-menu">
                     <div className="nav__menu__container">
+                    <a
+                        href="https://celopool-dex-frontend-ajbwvr6ni-celopool.vercel.app/"
+                        target="_blank"
+                        className="nav__link nav-bar__link"
+                      >
+                        DEX
+                      </a>
                       <a
                         href="#"
                         target="_blank"
@@ -63,13 +70,6 @@ export default function Home() {
                         className="nav__link nav-bar__link"
                       >
                         BOND
-                      </a>
-                      <a
-                        href="https://celopool-dex-frontend-ajbwvr6ni-celopool.vercel.app/"
-                        target="_blank"
-                        className="nav__link nav-bar__link"
-                      >
-                        SWAP
                       </a>
                       <a href="#" className="nav__link nav-bar__link">
                         Flex loans
