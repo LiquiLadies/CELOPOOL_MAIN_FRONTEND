@@ -1,0 +1,14 @@
+import OLYMPUS_PRO_FACTORY_STORAGE_ABI from "../utils/OnBoardingFacet.json";
+import TOKEN_ABI from "../utils/BondPayoutToken.json";
+import CUSTOM_BOND_ABI from "../utils/CustomBond.json";
+
+export const OLYMPUS_PRO_FACTORY_STORAGE_CONTRACT_ADDRESS="0x9eae3E4aF957137C0079DA73baa3484318e92BE2"
+
+export const OLYMPUS_PRO_FACTORY_STORAGE_CONTRACT = {
+    addressOrName: OLYMPUS_PRO_FACTORY_STORAGE_CONTRACT_ADDRESS,
+    contractInterface: OLYMPUS_PRO_FACTORY_STORAGE_ABI.abi,
+}
+
+
+export { OLYMPUS_PRO_FACTORY_STORAGE_ABI, TOKEN_ABI, CUSTOM_BOND_ABI };
+
