@@ -1,4 +1,4 @@
-## CELOPOOL VIDEO LINK -> [HERE](https://youtube/qbqIi91KPaw)
+## CELOPOOL VIDEO LINK -> [HERE](https://www.youtube.com/watch?v=qbqIi91KPaw)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
