@@ -84,14 +84,14 @@ export default function Home() {
   });
 
   return (
-    <div className={""}>
+    <div className={"text-white"}>
       <Head>
         <title>CeloPool Market</title>
         <meta
           name="description"
           content="Securing liquidity for protocols across DeFi"
         />
-        <link rel="icon" href="icon.png" />
+        {/* <link rel="icon" href="icon.png" /> */}
       </Head>
 
       <Layout className={""}>
